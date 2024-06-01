@@ -1,0 +1,53 @@
+body{
+    font-family: "Lato", sans-serif;
+    font: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font: normal 400 16px / 1.8 Lato;
+  color: #515357;
+}
+.container{
+    width: 700px;
+    padding-left:400px;
+}
+header{
+    height: 80px;
+    width: 700px;
+    position: fixed;
+}
+main{
+    padding-top: 80px;
+
+
+}
+.page-header{
+    font:normal 400 36px / 1.4 Lato;
+}
+section {
+    background-color: #f7f6f4;
+    width: 100%;
+    padding-left: 400px;
+}
+.input-field{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.input-field label{
+    margin-right: 120px;
+}
+.pronouns{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    /* width: 500px; */
+}
+.pronouns-row2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    /* width: 500px; */
+}
+.pronoun-checkbox{
+    padding-right: 30px;
+}
