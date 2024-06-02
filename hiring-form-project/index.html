@@ -147,18 +147,135 @@
                 <h5>SUPPLEMENTARY QUESTIONS</h5>
                 <div class="input-field">
                     <label for="Portfolio URL">Language Skill(s) (Check all that apply)</label>
-                     <select name="language" id="language">
-                        <option value="English">English</option>
-                        <option value="Spanish">Spanish</option>
-                     </select>
+                </div>
+                <div>
+                    <label><input type="checkbox" name="language" value="ENG"> English (ENG)</label><br>
+                    <label><input type="checkbox" name="language" value="SPA"> Spanish (SPA)</label><br>
+                    <label><input type="checkbox" name="language" value="FRA"> French (FRA)</label><br>
+                    <label><input type="checkbox" name="language" value="DEU"> German (DEU)</label><br>
+                    <label><input type="checkbox" name="language" value="JPN"> Japanese (JPN)</label><br>
+                    <label><input type="checkbox" name="language" value="CANT"> Cantonese (CANT)</label><br>
+                    <label><input type="checkbox" name="language" value="MAN"> Mandarin (MAN)</label><br>
+                    <label><input type="checkbox" name="language" value="NLD"> Dutch (NLD)</label><br>
+                    <label><input type="checkbox" name="language" value="HIN"> Hindi (HIN)</label><br>
+                    <label><input type="checkbox" name="language" value="ARA"> Arabic (ARA)</label><br>
+                    <label><input type="checkbox" name="language" value="DAN"> Danish (DAN)</label><br>
+                    <label><input type="checkbox" name="language" value="TUR"> Turkish (TUR)</label><br>
+                    <label><input type="checkbox" name="language" value="POR"> Portuguese (POR)</label><br>
+                    <label><input type="checkbox" name="language" value="HEB"> Hebrew (HEB)</label><br>
+                    <label><input type="checkbox" name="language" value="SWE"> Swedish (SWE)</label><br>
+                    <label><input type="checkbox" name="language" value="NOR"> Norwegian (NOR)</label><br>
+                    <label><input type="checkbox" name="language" value="ITA"> Italian (ITA)</label><br>
+                    <label><input type="checkbox" name="language" value="VIE"> Vietnamese (VIE)</label><br>
+                    <label><input type="checkbox" name="language" value="TGL"> Tagalog (TGL)</label><br>
+                    <label><input type="checkbox" name="language" value="KHM"> Khmer (KHM)</label><br>
+                    <label><input type="checkbox" name="language" value="HMN"> Hmong (HMN)</label><br>
+                    <label><input type="checkbox" name="language" value="TEL"> Telugu (TEL)</label><br>
+                    <label><input type="checkbox" name="language" value="BNE"> Bengali (BNE)</label><br>
+                    <label><input type="checkbox" name="language" value="MAR"> Marathi (MAR)</label><br>
+                    <label><input type="checkbox" name="language" value="URD"> Urdu (URD)</label><br>
+                    <label><input type="checkbox" name="language" value="GUJ"> Gujarati (GUJ)</label><br>
+                    <label><input type="checkbox" name="language" value="LIT"> Lithuanian (LIT)</label><br>
+                    <label><input type="checkbox" name="language" value="ASL"> American Sign Language (ASL)</label><br>
+                    <label><input type="checkbox" name="language" value="BSL"> British Sign Language (BSL)</label><br>
+                    <label><input type="checkbox" name="language" value="disclose"> Choose not to disclose</label><br>
+                    <label><input type="checkbox" name="language" value="other"> Other</label><br>
                 </div>
 
 
+                <h2>Preferred Name | What would you like us to call you?</h2>
+                <div class="input-field">
+                    <label for="preferredName">Type your response</label><br>
+                </div>
+                <input type="text" id="preferredName" name="preferredName"><br><br>
 
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
-                <label for="phone">Phone</label>
-                <input type="text" name="phone" id="phone">
+
+        <h2>Name Pronunciation | How do you pronounce your name?</h2>
+        <div class="input-field">
+            <label for="namePronunciation">Type your response</label><br>
+        </div>
+        <input type="text" id="namePronunciation" name="namePronunciation"><br><br>
+
+
+        <h2>WORK AUTHORIZATION</h2>
+        <p>Are you legally authorized to work in the country for which you are applying?✱</p>
+        <div class="input-field">
+            <label><input type="radio" name="workAuthorization" value="yes"> Yes</label><br>
+        <label><input type="radio" name="workAuthorization" value="no"> No</label><br><br>
+        </div>
+
+
+        <p>Will you now or in the future require sponsorship for employment visa status (e.g., H-1B, etc.)?✱</p>
+        <div class="input-field">
+            <label><input type="radio" name="visaSponsorship" value="yes"> Yes</label><br>
+            <label><input type="radio" name="visaSponsorship" value="no"> No</label><br><br>
+        </div>
+
+
+        <h2>UNIVERSITY</h2>
+        <div class="input-field">
+            <label for="university">Which university are you currently attending or did you last attend? Please select "Other (School Not Listed)" if your school is not listed.✱</label><br>
+
+        </div>
+        <select id="university" name="university">
+            <option value="">Select...</option>
+            <option value="other">Other (School Not Listed)</option>
+        </select><br><br>
+
+
+        <h2>HOW DID YOU HEAR ABOUT THIS OPPORTUNITY?</h2>
+        <div class="input-field"></div>
+        <label for="opportunitySource">Please tell us how you heard about this opportunity.✱</label><br>
+        <select id="opportunitySource" name="opportunitySource">
+            <option value="">Select...</option>
+        </select><br><br>
+
+        <h2>SOFTWARE ENGINEER - FRONTEND DEVELOPER PRODUCTIVITY CUSTOM QUESTION</h2>
+        <div class="input-field">
+            <label for="frontendExperience">Describe your experience with frontend build tooling, and/or a way you improved the developer productivity in your most recent role.</label><br>
+
+        </div>
+        <textarea id="frontendExperience" name="frontendExperience" rows="4" cols="50"></textarea><br><br>
+
+
+        <h2>RELEVANT EXPERIENCE</h2>
+        <div class="input-field"></div>
+        <label for="relevantExperience">How many years of relevant, post college work experience do you have?✱</label><br>
+        <select id="relevantExperience" name="relevantExperience">
+            <option value="">Select...</option>
+        </select><br><br>
+
+        <h2>ADDITIONAL QUESTIONS</h2>
+        <div class="input-field">
+            <label for="favoriteProject">What has been your favorite project or proudest accomplishment? Why?</label><br>
+
+        </div>
+        <textarea id="favoriteProject" name="favoriteProject" rows="4" cols="50"></textarea><br><br>
+
+
+
+        <div class="input-field">
+            <label for="whyPalantir">Why do you want to work at Palantir?</label><br>
+
+        </div>
+        <textarea id="whyPalantir" name="whyPalantir" rows="4" cols="50"></textarea><br><br>
+
+
+        <h2>ADDITIONAL INFORMATION</h2>
+        <div class="input-field">
+            <label for="additionalInfo">Add a cover letter or anything else you want to share.</label><br>
+
+        </div>
+        <textarea id="additionalInfo" name="additionalInfo" rows="4" cols="50"></textarea><br><br>
+
+
+        <h4 style="width: 730px;">U.S. EQUAL EMPLOYMENT OPPORTUNITY INFORMATION <span>(Completion is voluntary and will not subject you to adverse treatment)</span></h4>
+        <div style="width: 780px;">
+        <p>Palantir provides equal employment and affirmative action opportunities to applicants and employees without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status, or disability.</p>
+        <p>Palantir is a federal contractor or subcontractor subject to certain governmental recordkeeping and reporting requirements for the administration of civil right laws and regulations. Employment decisions are made on the basis of job-related criteria without regard to race, ethnicity, color, religion, sex, sexual orientation, gender identity, marital status, age, genetic information, national origin, disability, military, or veteran status, or any other classification protected by applicable law.</p>
+        <p>We invite all applicants to voluntarily self-identify their race, ethnicity, and gender. Submission of the information on this form is strictly voluntary and refusal to provide it will not subject you to any adverse treatment. Information obtained will be retained in a confidential file and separate from personnel records. This information may only be used in accordance with the provision of applicable federal laws, executive orders, and regulations. If you want more information about any of the sections, please check with a company representative.</p>
+        </div>
+
             </form>
         </div>
     </section>
