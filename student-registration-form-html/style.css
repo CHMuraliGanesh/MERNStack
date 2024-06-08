@@ -1,0 +1,19 @@
+body{
+    font-family: "Lato", sans-serif;
+    font: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    padding: 0px 100px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+hr{
+    border: 0.5px solid #E0E0E0;
+}
+
+section {
+    padding-top: 50px;
+}
+section h2{
+    font-family:'Times New Roman', Times, serif;
+}
